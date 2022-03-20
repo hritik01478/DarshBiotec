@@ -1,0 +1,55 @@
+/* Navbar designing */
+#navbar{
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    border-radius: 10px;
+    position: sticky;
+}
+#navbar ul{
+    display: flex;
+
+}
+.items{
+    list-style: none;
+    font-size: 1.7rem;
+}
+.items a{
+    text-decoration: none;
+    margin: 4px 8px;
+    padding: 4px 12px;
+    color: white;
+}
+.items a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+.logo{
+    margin: 4px 8px;
+    padding: 6px 4px;
+
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+/* Home Page designing  */
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(../images/bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+
+}
