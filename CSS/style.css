@@ -3,9 +3,12 @@
     font-size: 4rem;
     color: rgb(200 250 154);
     text-shadow: black 2px 2px;
+    font-family: 'Exo 2', sans-serif;
 }
 .secondary{
     font-size: 1.3rem;
+    font-family: 'Merienda', cursive;
+    
 }
 
 /* Navbar styling  */
@@ -44,6 +47,7 @@
     text-decoration: none;
     color: white;
     text-shadow: black 1px 1px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 .items a:hover{
     background-color: white;
