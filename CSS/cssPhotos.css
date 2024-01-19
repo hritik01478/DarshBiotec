@@ -395,8 +395,8 @@ body:has(input#b10:checked), .thumbnails label[for=b10] {
 	border-radius: 25px;
 }
 
-/* @supports (-webkit-font-smoothing: antialiased) {
+@supports (-webkit-font-smoothing: antialiased) {
 	.firefox {
 		display: none;
 	}
-} */
+}

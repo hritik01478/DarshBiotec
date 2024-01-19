@@ -53,5 +53,27 @@
     <div class="firefox">
       <span>Sorry, <code>:has()</code> is not supported by this browser.</span>
     </div>
+
+    <script>
+      // JavaScript code to handle radio button changes
+      const radioButtons = document.querySelectorAll('input[type="radio"]');
+      const content = document.querySelector('.content');
+      const thumbnails = document.querySelector('.thumbnails');
+    
+      radioButtons.forEach(button => {
+        button.addEventListener('change', () => {
+          const selectedId = button.id;
+          updateStyles(selectedId);
+        });
+      });
+    
+      function updateStyles(selectedId) {
+        const imageNumber = selectedId.replace('b', ''); // Extract the number from the ID
+    
+        // Update styles based on the selected radio button
+        content.style.backgroundImage = `url(../images/bg${imageNumber}.jpeg)`;
+        // Update other styles as needed
+      }
+    </script>
   </body>
 </html>
