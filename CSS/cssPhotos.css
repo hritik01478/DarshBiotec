@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
 
 :root {
-	--img: url(https://cdn.josetxu.com/img/gp-fisura-saqueadores.jpg);
+	--img: url(../images/bg1.jpeg);
 }
 
 html {
@@ -298,7 +298,7 @@ body:has(input#b10:checked):after {
 }
 
 /* IMAGES / THUMBNAILS */
-body:has(input#b1:checked), .thumbnails label[for=b1] {
+/* body:has(input#b1:checked), .thumbnails label[for=b1] {
 	--img: url(../images/bg1.jpeg);
 }
 
@@ -335,6 +335,47 @@ body:has(input#b9:checked), .thumbnails label[for=b9] {
 }
 
 body:has(input#b10:checked), .thumbnails label[for=b10] {
+	--img: url(../images/bg10.jpeg);
+} */
+
+/* THUMBNAILS */
+.thumbnails label[for=b1], input#b1:checked ~ .content .thumbnails label[for=b1] {
+	--img: url(../images/bg1.jpeg);
+}
+
+.thumbnails label[for=b2], input#b2:checked ~ .content .thumbnails label[for=b2] {
+	--img: url(../images/bg2.jpeg);
+}
+
+.thumbnails label[for=b3], input#b3:checked ~ .content .thumbnails label[for=b3] {
+	--img: url(../images/bg3.jpeg);
+}
+
+.thumbnails label[for=b4], input#b4:checked ~ .content .thumbnails label[for=b4] {
+	--img: url(../images/bg4.jpeg);
+}
+
+.thumbnails label[for=b5], input#b5:checked ~ .content .thumbnails label[for=b5] {
+	--img: url(../images/bg5.jpeg);
+}
+
+.thumbnails label[for=b6], input#b6:checked ~ .content .thumbnails label[for=b6] {
+	--img: url(../images/bg6.jpeg);
+}
+
+.thumbnails label[for=b7], input#b7:checked ~ .content .thumbnails label[for=b7] {
+	--img: url(../images/bg7.jpeg);
+}
+
+.thumbnails label[for=b8], input#b8:checked ~ .content .thumbnails label[for=b8] {
+	--img: url(../images/bg8.jpeg);
+}
+
+.thumbnails label[for=b9], input#b9:checked ~ .content .thumbnails label[for=b9] {
+	--img: url(../images/bg9.jpeg);
+}
+
+.thumbnails label[for=b10], input#b10:checked ~ .content .thumbnails label[for=b10] {
 	--img: url(../images/bg10.jpeg);
 }
 
